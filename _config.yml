@@ -1,0 +1,23 @@
+title: Rami0r Explore Feed 
+ description: Feed for GitHub Topics and Collections. 
+  
+ repository: rami0r/explore 
+  
+ plugins: 
+   - jekyll-redirect-from 
+  
+ exclude: 
+   - .git 
+   - CODEOWNERS 
+   - Gemfile 
+   - Gemfile.lock 
+   - README.md 
+   - Rakefile 
+   - collections 
+   - test 
+   - topics 
+   - vendor 
+  
+ collections: 
+   topics: 
+   explore_collections:
